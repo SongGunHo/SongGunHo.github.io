@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>join_form.html</title>
+    <h3>회원가입</h3>
+    <style type = 'text/css'>
+    textarea {
+        vertical-align : middle;
+    }
+    body{
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .num{
+        width: 50px;
+    }
+    </style>
+</head>
+<body>
+    <form >     
+        <table >
+            <tr>
+                <td>- 아이디 <input type = "text" name = "id"   style="margin-left:50px"></td>
+            </tr>    
+            <tr>
+                <td>- 비밀번호 <input type = "password" name = "password" style="margin-left:35px"></td><i class="bi bi-file-lock2"></i>
+            </tr>
+            <tr>
+                <td>- 비밀번호 확인<input type = "password" name = "password_check" style="margin-left:3px"></td><i class="bi bi-file-lock2"></i>
+            </tr>
+            <tr>
+                <td>- 이름<input type = "text" name = "name" style="margin-left:73px"></td>
+            </tr>
+            <tr>
+                <td>- 성별 <input style="margin-left:65px" type="radio" name="gender" value="female">여성 
+                <input type="radio" name="gender" value="male">남성 </td>
+            </tr>
+            <tr>
+                <td>- 전화번호 
+                    <select style="margin-left:32px">
+                    <option value = "1">02</option>
+                    <option value = "2">011</option>
+                    <option value = "3">010</option>
+                    </select>-<input type = 'tel' class="num" name = 'phone2'>-<input type = 'tel' class="num" name = 'phone3'></td>
+            </tr>
+            <tr>
+                <td>- 이메일 <input type = "text" name = "e-mail" style="margin-left:48px"> @ 
+                    <select>
+                        <option value = "0">선택</option>
+                        <option value = "1">naver.com</option>
+                        <option value = "2">daum.net</option>
+                        <option value = "3">hanmail.net</option>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+</body>
+</html>
